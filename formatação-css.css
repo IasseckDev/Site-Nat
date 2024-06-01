@@ -1,0 +1,178 @@
+body {
+	
+	min-height: 100vh;
+	background: linear-gradient(90deg, #dc0f0f, #dc710f, #dcb60f);
+	font-size: 1em;
+	font-family: "trebuchet MS", Helvetica, sans-serif;
+}
+
+/*INICIO FORMATAÇÃO CABEÇALHO*/
+#cabecalho {
+	text-align: center;
+	width: 1200px;
+	height: 150px;
+	margin-left: 30px;
+	background-image: url('imagens/cabeçalho-2.png');
+	border-radius: 10px;
+}
+
+#titulo {
+	color: black;
+	padding-left: 460px;
+	padding-top: 30px;
+	float: left;
+	font-family: copperplate gothic;
+	font-size: 1.1em;
+}
+
+#mascote {
+	float: left;
+	
+}
+
+#logo {
+	float: right;	
+}
+
+#cabecalho a:link, #cabecalho a:visited {
+	color: whitesmoke;
+	padding: 8px 12px;
+	text-decoration: none;
+	background-color: gold;
+	border-radius: 20px;
+}
+
+#cabecalho a:hover {
+	color: black;
+	background: #FFDF00;
+	text-decoration: none;
+}
+
+#links {
+	float: left;
+	padding-left: 390px;
+}
+/*FIM FORMATAÇÃO CABEÇALHO*/
+
+/*INICIO FORMATAÇÃO POST PRINCIPAL*/
+#principal {
+	width: 900px;
+	padding-top: 10px;
+	padding-left: 30px;
+}
+
+#postagem {
+	width: 760px;
+	float: left;
+}
+
+.post {
+	padding: 20px;
+	margin-bottom: 20px;
+	color: white;
+}
+
+.imagem {
+	width: 500px;
+	border-radius: 20px;
+}
+
+p {
+	background-color: #FFDF00;
+	border-radius: 8px;
+}
+/*FIM FORMATAÇÃO POST PRINCIPAL*/
+
+/*INICIO FORMATAÇÃO POST LATERAL*/
+.lateral {
+	width: 240px;
+	float: right;
+	padding-left: 20px;
+	margin-right: 19px;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	
+}
+
+.image-link img {
+    width: 200px; /* largura inicial da imagem */
+    transition: transform 0.3s ease-in-out; /* tempo e tipo de transição */
+    border-radius: 20px;
+}
+
+.image-link img:hover {
+    transform: scale(1.1); /* aumenta a imagem em 10% */
+}
+
+.conteudo-lateral {
+	padding-top: 25px;
+	margin-left: 11px;
+}
+	
+
+.texto-lateral {
+	font-size: 1.3em;
+	padding: 5px;
+	text-align: center;
+	text-decoration: none;
+	padding-right: 30px;
+}
+
+
+
+.centralizar {
+	margin-right: 300px;
+}
+/*FIM FORMATAÇÃO POST LATERAL*/
+
+/*INICIO FORMATAÇÃO SETORES*/
+.setores {
+	padding-left: 30px;
+
+}
+
+.post a:link, .post a:visited {
+	color: #227591;
+	padding: 8px 12px;
+	text-decoration: none;
+}
+
+ .post a:hover {
+	color: #eda3a3;
+	
+	text-decoration: none;
+}
+/*FIM FORMATAÇÃO SETORES*/
+
+/*INICIO FORMATAÇÃO CALENDÁRIO*/
+.calendario {
+	width: 240px;
+	float: left;
+	padding-left: 20px;
+	margin-right: 19px;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	
+}
+/*FIM FORMATAÇÃO CALENDÁRIO*/
+
+
+
+#rodape {
+	clear: both;
+	text-align: center;
+	background: #CCC;
+}
+
+h2 {
+	color:gold;	
+}
+
+h3 {
+	color: gold;
+	text-decoration: underline;
+}
+
+
+
+
